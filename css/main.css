@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: #F7ECDE;
+    min-height: 100vh;
+}
+.main .title{
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 1px dashed black;
+}
+.main .title h1{
+    font-size: 60px;
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    background-color: #FEC260;
+    display: inline-block;
+}
+.main .info h2{
+    text-align: center;
+    margin: 10px 0;
+    color: #B1AB49;
+    font-family: "Righteous", sans-serif;
+}
+.main .info label{
+    font-weight: bold;
+}
+.main .info .add-site{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom:1px dashed black ;
+    padding-bottom: 20px;
+}
+.main .info .add-site button{
+    background-color: #D1512D;
+    padding: 10px 50px;
+}
